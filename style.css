@@ -96,10 +96,30 @@ button:hover{
 .btnIgual{
     height: 112px;
 }
+    
+.btnIgual:hover{
+    background-color: rgba(0, 0, 0, 0.637);
+    transition: 300ms;
+    width: 100px;
+    height: 112px;
+    color: white;
+    font-size: xx-large;
+}
+
+
+
 
 .btn0{
     width: 203px;
 }
+.btn0:hover{
+    width: 203px;
+    background-color: rgba(0, 0, 0, 0.637);
+    transition: 300ms;
+    width: 203px;
+    color: white;
+}
+
 
 button{
     
@@ -107,6 +127,11 @@ button{
 
     font-family: 'Karla', sans-serif;
     font-family: 'Orbitron', sans-serif;
+    font-size: larger;
+
+}
+
+button:hover{
     font-size: x-large;
 
 }
